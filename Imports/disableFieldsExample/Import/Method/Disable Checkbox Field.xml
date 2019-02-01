@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="Method" id="02DA4143F4FE43B59E5B3F469D0925B7" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[var checkboxField = getFieldByName("checkbox_field");
+var input = checkboxField.getElementsByTagName("input")[0];
+input.disabled = !input.disabled;]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>Disable Checkbox Field</name>
+ </Item>
+</AML>

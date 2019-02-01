@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="Method" id="7D4DA59929B94D598F80C9770275EACB" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[var dateField = getFieldByName("date_field");
+var textInput = dateField.getElementsByTagName("input")[0];
+var buttonInput = dateField.getElementsByTagName("input")[1];
+
+textInput.disabled = !textInput.disabled;
+buttonInput.disabled = !buttonInput.disabled;
+
+if (buttonInput.disabled) {
+    buttonInput.src = "../images/calendar-disabled.svg";
+} else {
+    buttonInput.src = "../images/calendar.svg";
+}
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>Disable Date Field</name>
+ </Item>
+</AML>

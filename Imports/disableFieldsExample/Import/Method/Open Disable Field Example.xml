@@ -1,0 +1,28 @@
+﻿<AML>
+ <Item type="Method" id="39F88F09113648DBAB81DC1965325F99" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[// We need to pass the ID of the form into the dialog
+var formNd = top.aras.getItemByName("Form", "Disable Fields Example", 0);
+var newItem = aras.IomInnovator.newItem("Disable Fields Example", "add");
+
+// Set the arguments being passed to the dialog
+var param = {
+	title: "Disable Field Example",
+	aras: top.aras,
+	formId: formNd.getAttribute("id"),
+	isEditMode: true,
+	dialogWidth: 500,
+	dialogHeight: 250,
+	content: 'ShowFormAsADialog.html',
+	itemTypeName: 'Disable Fields Example',
+	item: newItem
+};
+
+// Open the dialog
+var topWnd = top.aras.getMostTopWindowWithAras();
+var wnd = topWnd ? topWnd : window;
+wnd.ArasModules.Dialog.show('iframe', param);]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>Open Disable Field Example</name>
+ </Item>
+</AML>

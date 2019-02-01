@@ -1,0 +1,36 @@
+﻿<AML>
+ <Item type="ItemType" id="5B56262D09844A6F952F68E316AB940E" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>DISABLE_FIELDS_EXAMPLE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Disable Fields Example</label>
+  <label_plural xml:lang="en">Disable Fields Examples</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>Disable Fields Example</name>
+  <Relationships>
+   <Item type="View" id="8E47AC0D8EF1495089B8E1F80D6B2DF5" action="add">
+    <client>js</client>
+    <related_id keyed_name="Disable Fields Example" type="Form">31898E182D414F9DBF6CC4E714079FBA</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Disable Fields Example" type="ItemType" name="Disable Fields Example">5B56262D09844A6F952F68E316AB940E</source_id>
+    <type>edit</type>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

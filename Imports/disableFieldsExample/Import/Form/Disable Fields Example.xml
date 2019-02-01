@@ -1,0 +1,286 @@
+﻿<AML>
+ <Item type="Form" id="31898E182D414F9DBF6CC4E714079FBA" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>Disable Fields Example</name>
+  <Relationships>
+   <Item type="Body" id="0E15DA7858A34BD8909B433CAC869147" action="add">
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Disable Fields Example" type="Form">31898E182D414F9DBF6CC4E714079FBA</source_id>
+    <Relationships>
+     <Item type="Field" id="0148928E0B8E4694A477185C7248DC2D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">checkbox</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>15</x>
+      <y>100</y>
+      <name>checkbox_field</name>
+     </Item>
+     <Item type="Field" id="154F9909326C4F2BA44539D67762A59E" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>15</x>
+      <y>140</y>
+      <name>date_field</name>
+     </Item>
+     <Item type="Field" id="69A3CD91BCE5439F8E146BE25A4BC1AD" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Dropdown</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>15</x>
+      <y>60</y>
+      <name>dropdown_field</name>
+     </Item>
+     <Item type="Field" id="A30B774419354F4A81686601DE01BC6C" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Item</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>15</x>
+      <y>179</y>
+      <name>item_field</name>
+     </Item>
+     <Item type="Field" id="EF1DF3A754214E659D9609AE47C3B0A8" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">text</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>15</x>
+      <y>20</y>
+      <name>text_field</name>
+     </Item>
+     <Item type="Field" id="782665E57200433889B39100227EAD11" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Toggle Checkbox</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>181</x>
+      <y>105</y>
+      <name>toggle_checkbox</name>
+      <Relationships>
+       <Item type="Field Event" id="E186B93F10E9446A8D6D86A24E2E398C" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="Disable Checkbox Field" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>Disable Checkbox Field</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="toggle_checkbox" type="Field">782665E57200433889B39100227EAD11</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="C09BA2CC29A2474BBFE5E132D8C64754" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Toggle Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>180</x>
+      <y>145</y>
+      <name>toggle_date</name>
+      <Relationships>
+       <Item type="Field Event" id="4C7E5E2BDCC14A408ACE3DD95FA40E7E" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="Disable Date Field" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>Disable Date Field</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="toggle_date" type="Field">C09BA2CC29A2474BBFE5E132D8C64754</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="46E50D235BD5484FBB6487E5113BB6ED" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Toggle Dropdown</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>180</x>
+      <y>65</y>
+      <name>toggle_dropdown</name>
+      <Relationships>
+       <Item type="Field Event" id="83AA544370444150934EB15EEC266FCF" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="Disable Dropdown Field" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>Disable Dropdown Field</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="toggle_dropdown" type="Field">46E50D235BD5484FBB6487E5113BB6ED</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="14142A926DAB44A79BB5DB9789BA06EA" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Toggle Item</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>180</x>
+      <y>185</y>
+      <name>toggle_item</name>
+      <Relationships>
+       <Item type="Field Event" id="4AE6F85A325F4809ABF2955F0DE1EB66" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="Disable Item Field" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>Disable Item Field</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="toggle_item" type="Field">14142A926DAB44A79BB5DB9789BA06EA</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="EB46B5E1A19843979A542B221E882CF6" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Toggle Text</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="0E15DA7858A34BD8909B433CAC869147" type="Body">0E15DA7858A34BD8909B433CAC869147</source_id>
+      <tab_stop>1</tab_stop>
+      <x>180</x>
+      <y>25</y>
+      <name>toggle_text</name>
+      <Relationships>
+       <Item type="Field Event" id="AEE535C837F14B18B299632830E6CE5F" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="Disable Text Field" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>Disable Text Field</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="toggle_text" type="Field">EB46B5E1A19843979A542B221E882CF6</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="A30B774419354F4A81686601DE01BC6C" action="edit">
+  <!-- Please note: this AML depends on the "Disable Fields Example" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>owned_by_id</name>
+    <source_id type="ItemType" keyed_name="Disable Fields Example">5B56262D09844A6F952F68E316AB940E</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>
